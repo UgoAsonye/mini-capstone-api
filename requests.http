@@ -1,0 +1,22 @@
+GET http://localhost:3000/products.json
+
+
+###CREATE
+POST http://localhost:3000/products.json
+Content-Type: application/json
+
+{
+  "name": "Cast Iron Wok",
+  "price": 65,
+  "image_url": "https://secure.lodgecastiron.com/on/demandware.static/-/Sites-www-lodge-com/default/dw1e15445e/images/L14W/L14W_14-Inch-Wok_Whitetable1_800x800_WEB.jpg",
+  "description": "A cast iron wok, careful it gets hot!"
+}
+
+###UPDATE
+PATCH http://localhost:3000/products/1.json
+Content-Type: application/json
+
+{"price": 55}
+
+###DESTROY
+DELETE http://localhost:3000/products/1.json

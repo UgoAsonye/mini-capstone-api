@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
-  get "/all_products" => "products#all_products"
-  get "/Pan" => "products#Pan"
-  get "/Pot" => "products#Pot"
-  get "/Spatula" => "products#Spatula"
+  get "/products" => "products#index"
+  get "/pan" => "products#pan"
+  get "/pot" => "products#pot"
+  get "/spatula" => "products#spatula"
+  get "/products/:id" => "products#show"
+  post "/products" => "products#create"
+  patch "/products/:id" => "products#update"
+  delete "/products/:id" => "products#destroy"
 end
