@@ -6,10 +6,10 @@ POST http://localhost:3000/products.json
 Content-Type: application/json
 
 {
-  "name": "Cast Iron Wok",
-  "price": 65,
-  "image_url": "https://secure.lodgecastiron.com/on/demandware.static/-/Sites-www-lodge-com/default/dw1e15445e/images/L14W/L14W_14-Inch-Wok_Whitetable1_800x800_WEB.jpg",
-  "description": "A cast iron wok, careful it gets hot!"
+  "name": "3 Piece Dark Plate",
+  "price": 12,
+  "image_url": "https://s.hdnux.com/photos/01/11/42/67/19279343/8/2400x0.jpg",
+  "description": "Crispy, tasty, delicious! Fried chicken with 2 sides!"
 }
 
 ###UPDATE
