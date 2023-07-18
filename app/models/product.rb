@@ -1,7 +1,8 @@
 class Product < ApplicationRecord
-  def supplier
-    belongs_to :supplier
-  end
+  #shortcut tro have ruby write the method for you
+
+  belongs_to :supplier
+  has_many :images
 
   def is_discounted?
     if price <= 10
