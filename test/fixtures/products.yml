@@ -3,9 +3,11 @@
 one:
   name: MyString
   price: 1
-  description: MyString
+  description: MyString1234
+  supplier: one
 
 two:
-  name: MyString
+  name: MyString2
   price: 1
-  description: MyString
+  description: MyString12345
+  supplier: two

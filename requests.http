@@ -31,3 +31,12 @@ Content-Type: application/json
   "password": "password1",
   "password_confirmation": "password1"
 }
+
+###Login time
+POST http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+  "email":"amelie@info.com",
+  "password": "password1"
+}
