@@ -6,7 +6,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2ODk4MjAwN
 ###CREATE
 POST http://localhost:3000/products.json
 Content-Type: application/json
-
+Authorization: Bearer veyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2ODk5ODQzNzF9.XfAkMJiJ9CIZvSd5iXvQJmQNHZwBzZya077yESdIMrE
 {
   "name": "3 Piece Dark Plate",
   "price": 12,
@@ -45,7 +45,7 @@ Content-Type: application/json
 
 ###Test Create Order
 POST http://localhost:3000/orders.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2ODk5MDIyODN9.dxO49gsQ2iydrzQPzjjuLiIEo888dVFlmEfDXWeDia8
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2ODk5ODQzNzF9.XfAkMJiJ9CIZvSd5iXvQJmQNHZwBzZya077yESdIMrE
 Content-Type: application/json
 
 {
@@ -55,11 +55,11 @@ Content-Type: application/json
   
 
 ###Show Order
-GET http://localhost:3000/orders/1.json
+GET http://localhost:3000/orders/4.json
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2ODk5MDIyODN9.dxO49gsQ2iydrzQPzjjuLiIEo888dVFlmEfDXWeDia8
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2ODk5ODQzNzF9.XfAkMJiJ9CIZvSd5iXvQJmQNHZwBzZya077yESdIMrE
 
 ###Index Order
 GET http://localhost:3000/orders.json
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2ODk5MDIyODN9.dxO49gsQ2iydrzQPzjjuLiIEo888dVFlmEfDXWeDia8
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2ODk5ODQzNzF9.XfAkMJiJ9CIZvSd5iXvQJmQNHZwBzZya077yESdIMrE
